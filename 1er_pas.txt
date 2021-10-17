@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<!-- never forget: whe we use class, it's . / and when we use id, it's # -->
+	<meta charset="utf-8">
+	<!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+	<title>Login</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="bootstrap/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="fonticons/css/font-awesome.css">
+	<link rel="stylesheet" type="text/css" href="fonticons/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="bootstrap/4.3.1/css/bootstrap.min.css">
+</head>
+<body id="body_login">
+	<!-- Use section -->
+	<section>
+		<div class="imgx">
+			<img src="photo/06.jpg">
+		</div>
+		<div class="contentx">
+			<div class="formx">
+				<div class="inputx">
+					<label>Login</label>
+					<input type="text" name="">
+				</div>
+			</div>
+			
+			
+		</div>
+	</section>
+	
+</body>
+</html>
+
+PAGE gestion_article
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

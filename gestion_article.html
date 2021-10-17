@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Gestion des articles</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="bootstrap/bootstrap.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="fonticons/css/font-awesome.css">
+	<link rel="stylesheet" type="text/css" href="fonticons/css/font-awesome.min.css">
+</head>
+<body>
+	<!-- First line: use Nav Pills -->
+	<div class="firstline">
+		<div class="row">
+			<div class="col-md-2">
+				<ul class="nav nav-pills" role="tablist">
+				    <li class="nav-item">
+				      <a class="nav-link active" data-toggle="pill" href="#home"><i class="fa fa-link"></i>Expériences</a>
+				    </li>
+				</ul>
+			</div>
+
+			<div class="col-md-8">
+				<ul class="nav nav-pills" role="tablist">
+				    <li class="nav-item">
+				      <a class="nav-link active" data-toggle="pill" href="#home"><i class="fa fa-user"></i>Gestion des articles</a>
+				    </li>
+				    <li class="nav-item">
+				      <a class="nav-link active" data-toggle="pill" href="#home"><i class="fa fa-scissors"></i>Gestion des tiers</a>
+				    </li>
+				</ul>
+			</div>
+
+			<div class="col-md-2">
+				<ul class="nav nav-pills" role="tablist">
+				    <li class="nav-item">
+				      <a class="nav-link active" data-toggle="pill" href="#home"><i class="fa fa-undo"></i>My account</a>
+				    </li>
+				    <li class="nav-item">
+				      <a class="nav-link active" data-toggle="pill" href="login.html"><i class="fa fa-legal"></i>Sign out</a>
+				    </li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	
+
+
+	<!-- Second line: -->
+	<div class="secondline">
+		<!-- With experience nav -->
+		<div class="row">
+			<div class="col-md-2">
+				<p id="appro">Approvisionnement</p>
+				<p id="pcom">Passer une commande</p>
+				<p id="lachat">Liste des achats</p>
+				<p id="larticl">Stock Liste des articles</p>
+				<p id="caiss">Caisse <p id="lvente">Listes des ventes</p></p>
+				<p id="charge">Charges</p>
+				<p id="acharge">Ajouter une charge</p>
+				<p id="lcharge">Liste des charges</p>
+			</div>
+
+			<!-- With getsion des articles and gestion des tiers nav -->
+			<div class="col-md-8">
+				<div class="container">
+					<div row>
+						<div class="col-md-10">
+							<p><i class="fa fa-suitcase"></i>Passer une commande</p>
+						</div>
+					</div>
+
+					<div class="row">
+						<div class="col-md-10">
+							<table class="table">
+								<tbody>
+									<tr>
+										<td><label>Reférence produit</label></td>
+										<td><label>Nom du produit</label></td>										
+									</tr>
+									<tr>
+										<td><input type="text" name="" placeholder="Entrez le référence"></td>
+										<td><input type="text" name="" placeholder="Entrez le nom du produit"></td>										
+									</tr>
+									<tr>
+										<td><label>Prix unitaire</label></td>
+										<td><label>Quantité</label></td>										
+									</tr>
+									<tr>
+										<td><input type="text" name="" placeholder="Saisissez le prix unitaire en £"></td>
+										<td><input type="number" name="" placeholder="Saisissez la quantité"></td>										
+									</tr>
+									<tr>
+										<td><label>Date de livraisone</label></td>
+										<td><label>Votre appréciation</label></td>										
+									</tr>
+									<tr>
+										<td><input type="date" name=""></td>
+										<td><input type="number" name="" placeholder="Noter nous"></td>								
+									</tr>
+								</tbody>
+							</table>
+						</div>
+					</div>
+
+					<div class="buttonsuccess">
+						<h4><button type="btn" class="btn btn-success">Envoyer la commande</button></h4>
+					</div>
+					
+
+				</div>
+			</div>
+		</div>
+	</div>
+
+	
+
+
+</body>
+</html>

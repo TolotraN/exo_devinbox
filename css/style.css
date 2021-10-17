@@ -1,0 +1,174 @@
+/*For login page*/
+
+{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: sans-serif;
+}
+
+section {
+	position: relative;
+	width: 100%;
+	height: 100vh;
+	display: flex;
+}
+
+section .imgx {
+	position: relative;
+	width: 50%;
+	height: 100%;
+}
+
+section .imgx img  {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	opacity: 2;
+}
+
+section .contentx {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 50%;
+	height: 100%;
+}
+
+section .inputx #login {
+color: #607d8b;
+font-weight: 600;
+font-size: 40px;
+text-transform: uppercase;
+margin-bottom: 30px;
+border-bottom: 4px solid #ff4584;
+border-left: 4px solid #ff4584;;
+display: inline-block;
+letter-spacing: 1px;
+}
+
+section .inputx #usurname {
+	font-size: 20px;
+	margin-bottom: 20px;
+	color: #607db8;
+	font-weight: 400;
+	font-size: 20px;
+	letter-spacing: 1px;
+}
+
+section .inputx #password {
+	font-size: 20px;
+	margin-bottom: 20px;
+	margin-top: 20px;
+	color: #607db8;
+	font-weight: 400;
+	font-size: 20px;
+	letter-spacing: 1px;
+}
+
+section .inputx input {
+	width: 100%;
+	padding: 10px 20px;
+	outline: none;
+	font-weight: 400;
+	border: 1px solide yellow;
+	font-size: 15px;
+	letter-spacing: 1px;
+	color: green;
+	background: transparent;
+	border-radius: 30px;
+}
+
+
+section .buttonx  {
+	margin-bottom: 20px;
+	margin-top: 20px
+}
+
+
+
+section .rememberx {
+	margin-bottom: 20px;
+	margin-top: 20px;
+	font-weight: 400;
+	font-size: 20px;
+	letter-spacing: 1px;
+	color: ##00004d;
+
+
+}
+
+
+
+
+section .contentx .formx {
+	border: 2px solid #ff4584;
+	padding: 50px;
+	box-shadow: 2px 2px 15px;
+	background-image: url(../photo/05.jpg);
+}
+
+section .contentx .rememberx input {
+	padding: 125px;
+}
+
+
+
+
+/*For gestion_article page*/
+
+section .contentx .buttonx button a {
+	color: white;
+	list-style-type: none;
+	text-decoration: none;
+}
+
+
+.firstline {
+	background-image: url(../photo/12.png);
+	margin-top: 20px;
+	padding: 20px;
+	border: 1px solid #f0f0f5;
+	box-shadow: 2px 2px 22px;		
+}
+
+
+
+.secondline .row .col-md-2 {
+	background-image: url(../photo/12.png);
+	padding: 100px;
+	margin: 15px;
+	border: 1px solid #f0f0f5;
+	box-shadow: 2px 2px 22px;
+} 
+
+.secondline .row .col-md-8 {
+	background-image: url(../photo/08.jpg);
+	padding: 100px;
+	margin: 15px;
+	border: 1px solid #f0f0f5;
+	box-shadow: 2px 2px 22px;
+}
+
+
+.secondline .row .col-md-8  .buttonsuccess {
+	margin-left: 20%;
+	margin-top: 20px;
+}
+
+
+.secondline .row .col-md-8  p {
+	font-family: Castellar;
+	font-size: 30px;
+	font-style: italic;
+	text-align: center;
+	color: blueviolet;
+}
+
+.secondline .row .col-md-10 td label {
+	color: black;
+	font-family: Arial Black;
+	font-style: oblique;	
+}

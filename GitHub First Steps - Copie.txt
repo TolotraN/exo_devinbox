@@ -1,0 +1,58 @@
+1) Lien de téléchargement + Installer
+https://www.git-scm.com/downloads
+- Système de gestion d'un code source
+- Dépôt distant
+- Hébergeur
+- Git : Versionning
+- GitHub : Hébergeur Code source (à distance / otrn oe localhost)
+
+2) First Commit
+- Créer un compte : https://www.github.com
+- New repository
+- Nom de projet (public) => Create repository
+->> git bash here
+
+Git global setup (Pourraient être nécessaire ou pas == avant *git init)
+*git config --global user.name "Votre Unsername"
+*git config --global user.email "votre mail"
+
+* git init
+* git add .
+* git commit -m "Commentaire"
+* git branch -M master
+(<First commit only>)
+* git remote add origin + LIEN
+* git push -u origin master
+(</First commit only>)
+- Your repositories --> Settings
+- GitHub Pages : Branch Master
+- Manage Access : Ajouter une équipe
+
+3) From the 2nd commit
+* git status
+* git add .
+* git commit -m "Commentaire"
+* git push
+
+4) Travailler sur une autre branche ("dev")
+- git branch dev
+- git checkout dev
+- git add .
+- git commit
+- git push -u origin dev
+*Relier avec la branche master
+- git checkout master
+- git merge dev
+- git push
+
+5) Revenir sur une ancienne version
+- git status
+- git log --graph
+- git checkout + 5 caractères
+
+
+
+**********VOS COORDONNEES**********
+Mail : andriamirija@gmail.com
+Pseudo : TolotraN
+Mdp : Homme1234Femme1234
